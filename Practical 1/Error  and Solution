@@ -1,0 +1,17 @@
+Practical 1.1 = 
+
+Error =  Not using h = h % n, so the program rotates the array too many times when h is very large.
+Solution  =  Use h = h % n before rotating the array.
+This avoids extra rotations and makes the program faster.
+
+Practical 1.2 = 
+
+Error: If break is removed, the same book ID is printed multiple times.
+Solution : Keep the break statement after printing the duplicate.
+It prints the book ID only once for that comparison.
+
+Practical 1.3 = 
+
+Error: Using < instead of > in the condition finds the shortest string instead of the longest.
+Solution : Use if(arr[i].length() > longest.length()).
+This updates longest only when a longer string is found.
