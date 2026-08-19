@@ -1,0 +1,8 @@
+Bubble Sort
+It compares two adjacent marks. If they are in the wrong order, they are swapped. After each pass, the largest element moves toward the end.
+
+ Selection Sort
+It searches for the smallest mark in the unsorted part and places it at the beginning of that part.
+
+ Insertion Sort
+It takes one mark at a time and inserts it into its correct position among the marks that are already sorted.
