@@ -1,0 +1,11 @@
+Problem 1 = 
+A hospital manages a queue of patient tokens. New critical patients must be added to the front,croutine patients are added to the end, and occasionally a patient with a priority number must beinserted at a specific position in the queue. Given a sequence of such operations, implement allcthree insertion types and print the final queue after each operation. Describe how your insertion at a specific position works. What does your solution do if theposition given is greater than the current length of the queue? Is that handled explicitly or does it cause an error?
+
+Problem 2
+The hospital also needs to remove a patient token from the queue when a patient leaves, print
+all remaining tokens from last to first for an end-of-day audit, and display the full queue from
+front to back at any point. Implement deletion by value, reverse printing, and forward traversal
+on the same queue from Problem 4.1a.
+Describe how your reverse printing works. Does it use any extra storage, or does it work purely
+by following the links? Can you think of another way to reverse-print without modifying the
+original queue?
