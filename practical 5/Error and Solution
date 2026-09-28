@@ -1,0 +1,7 @@
+Problem 1 –
+Error: While inserting a new song after an existing song, I updated only the next pointer.
+Correction: In a doubly linked list, both next and prev links must be updated.
+
+Problem 2 – 
+Error: While deleting a student, I removed the node without reconnecting the previous node to the next node.
+Correction: If there is only one student, deleting that student should make the circle empty.
