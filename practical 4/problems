@@ -1,4 +1,4 @@
-Problem 1
+Problem 4.1
 A hospital manages a queue of patient tokens. New critical patients must be added to the front,
 routine patients are added to the end, and occasionally a patient with a priority number must be
 inserted at a specific position in the queue. Given a sequence of such operations, implement all
@@ -7,7 +7,7 @@ Describe how your insertion at a specific position works. What does your solutio
 position given is greater than the current length of the queue? Is that handled explicitly or does it
 cause an error?
 
-Problem 2
+Problem 4.2
 The hospital also needs to remove a patient token from the queue when a patient leaves, print
 all remaining tokens from last to first for an end-of-day audit, and display the full queue from
 front to back at any point. Implement deletion by value, reverse printing, and forward traversal
