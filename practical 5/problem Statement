@@ -1,0 +1,25 @@
+Practical Aim:
+To implement core doubly linked list and circular linked list operations and understand how
+bidirectional and circular linking change the way nodes are inserted, deleted, and traversed.
+
+Problem 1 = 
+
+A music player maintains a playlist where songs can be added to the beginning, added to the
+end, or inserted right after a specific song that is currently playing. When a song is removed,
+only the first song in the playlist is dropped. At any point the player can count how many songs
+are in the playlist and display them from first to last. Given a sequence of such operations,
+implement all of them on a doubly linked playlist and print the result after each operation.
+Describe how your insertion after a given song works. What extra step does a doubly linked list
+require here that a singly linked list did not? What happens if the given song is not found in the
+playlist?
+
+Problem 2=
+
+A group of students are sitting in a circle playing a passing game. A token starts at the first
+student and is passed around the circle one student at a time. Students can join the circle at any
+position and leave at any time, and the circle must remain unbroken after every join or leave.
+Given a sequence of join, leave, and display operations, implement them on both a singly
+circular and a doubly circular linked list and print the current circle after each operation.
+Describe how your solution ensures the circle stays unbroken after a student leaves. What is
+the one case where breaking the circle is most likely to happen as a bug, and how did you
+handle it?
