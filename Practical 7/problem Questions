@@ -1,0 +1,26 @@
+Practical Aim:
+
+To implement queue using array and linked list, and apply queue-based logic to number
+generation, and structure simulation problems.
+
+Problem 1=
+
+A government office has a token counter that issues tokens to visitors. The counter can hold at
+most n tokens at a time. New visitors join from one end and are served from the other end in the
+order they arrived. If the counter is full, no new token can be issued, and if it is empty, no one
+can be served. Given a sequence of join and serve operations, implement this fixed-capacity
+token system and print the current front token after each operation. Report an error if an
+operation cannot be performed.
+Describe how your solution tracks the front and rear of the queue. What happens to your front
+and rear pointers over time as join and serve operations keep happening, and does your
+solution handle the case where space appears to run out even though slots have been freed?
+
+Problem 2=
+
+A hospital emergency ward receives patients continuously and attends to them strictly in the
+order they arrived, with no upper limit on how many can be waiting at once. New patients are
+added at the back and the doctor always attends to the patient at the front. Given a sequence of
+arrive and attend operations, implement this unlimited patient queue and print the current front
+patient after each operation.
+Describe how your solution differs from Problem 1 in how it manages capacity. What happens in
+your solution when the attend operation is called on an empty ward with no patients waiting?
